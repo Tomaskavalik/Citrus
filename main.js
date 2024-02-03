@@ -73,9 +73,11 @@ function setup() {
         index++
     })
 
-    let layout = loadLayout(localStorage.getItem("layout"),library)
+    let savedLayout = localStorage.getItem("layout")
 
-    if (layout) {
+    if (savedLayout) {
+        let layout = loadLayout(savedData,library)
+
         boardSizeX = layout.boardSizeX
         boardSizeY = layout.boardSizeY
         parts = layout.parts
