@@ -13,6 +13,25 @@ const library = {
         ]
     },
 
+    "433TRANSMIT": {
+        colour: "#33EC44", height: 5, scheme: [
+            [0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+        ]
+    },
+
+    "433RECV": {
+        colour: "#33CC44", height: 9, scheme: [
+            [0, 0, 0, 1, 1, 1, 0, 0, 0]
+        ]
+    },
+
+    "Attiny85": {
+        colour: "#380812", height: 7, scheme: [
+            [1, 1, 1, 0, 0, 0]
+        ]
+    },
+
+
     "esp12f": {
         colour: "#222222", height: 1, scheme: [
             [0, 0, 0, 0, 0, 0],
